@@ -1,0 +1,30 @@
+﻿body {
+    background: #222;
+}
+
+
+.contact {
+    position: absolute;
+    background-color: red;
+    border-radius: 128px 128px;
+    display: inline-block;
+}
+
+.door1 {
+    position:absolute;
+    background-color:blue;
+    margin-left:128px;
+    left:0px;
+    top:10%;
+    height:80%;
+    width:128px;
+}
+.door2 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 256px;
+    top: 10%;
+    height: 80%;
+    width: 128px;
+}
