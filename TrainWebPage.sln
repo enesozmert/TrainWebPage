@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA49B47C-BB0F-4A5E-88B9-97DCC4227AD4}"
 	ProjectSection(SolutionItems) = preProject
 		index.html = index.html
+		OlayGunlugu.txt = OlayGunlugu.txt
 		TrainHomePage.html = TrainHomePage.html
 	EndProjectSection
 EndProject
@@ -16,7 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Css", "Css", "{788F0989-BF7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JavaScript", "JavaScript", "{CEDC515F-E1D8-46DC-B65B-29A27FF09FB7}"
 	ProjectSection(SolutionItems) = preProject
+		Door.js = Door.js
+		PScrollPosition.js = PScrollPosition.js
+		ScrollPosition.js = ScrollPosition.js
 		Train.js = Train.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Window", "Window", "{46548C5C-3BA8-4E5F-BE3D-BFEC8137B509}"
+	ProjectSection(SolutionItems) = preProject
+		window1.html = window1.html
+		window2.html = window2.html
+		window3.html = window3.html
+		window4.html = window4.html
 	EndProjectSection
 EndProject
 Global
@@ -26,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{788F0989-BF7B-409B-833E-14B769DFF266} = {DA49B47C-BB0F-4A5E-88B9-97DCC4227AD4}
 		{CEDC515F-E1D8-46DC-B65B-29A27FF09FB7} = {DA49B47C-BB0F-4A5E-88B9-97DCC4227AD4}
+		{46548C5C-3BA8-4E5F-BE3D-BFEC8137B509} = {DA49B47C-BB0F-4A5E-88B9-97DCC4227AD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E7685054-8C2E-4A2D-B82E-E0A810D8BF58}

@@ -1,7 +1,7 @@
 ﻿body {
     background: #222;
+    overflow: hidden;
 }
-
 
 .contact {
     position: absolute;
@@ -11,20 +11,173 @@
 }
 
 .door1 {
-    position:absolute;
-    background-color:blue;
-    margin-left:128px;
-    left:0px;
-    top:10%;
-    height:80%;
-    width:128px;
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 0px;
+    top: 10%;
+    height: 80%;
+    width: 128px;
 }
+
+    .door1:hover {
+        animation-name: mymovedoor;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+.window1 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 160px;
+    top: 10%;
+    height: 80%;
+    width: 400px;
+}
+
 .door2 {
     position: absolute;
     background-color: blue;
     margin-left: 128px;
-    left: 256px;
+    left: 700px;
     top: 10%;
     height: 80%;
     width: 128px;
+}
+
+    .door2:hover {
+        animation-name: mymovedoor;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+.window2 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 850px;
+    top: 10%;
+    height: 80%;
+    width: 400px;
+}
+
+.door3 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 1900px;
+    top: 10%;
+    height: 80%;
+    width: 128px;
+}
+
+    .door3:hover {
+        animation-name: mymovedoor;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+.window3 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 2050px;
+    top: 10%;
+    height: 80%;
+    width: 400px;
+}
+
+.door4 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 2500px;
+    top: 10%;
+    height: 80%;
+    width: 128px;
+}
+
+    .door4:hover {
+        animation-name: mymovedoor;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+.window4 {
+    position: absolute;
+    background-color: blue;
+    margin-left: 128px;
+    left: 2700px;
+    top: 10%;
+    height: 80%;
+    width: 400px;
+}
+
+@keyframes mymovedoor {
+    0% {
+        background-color: blue;
+        height: 80%;
+        width: 128px;
+    }
+
+    25% {
+        background-color: darkblue;
+        height: 80%;
+        width: 256px;
+    }
+
+    50% {
+        background-color: blue;
+        height: 80%;
+        width: 128px;
+    }
+
+    75% {
+        background-color: darkblue;
+        height: 80%;
+        width: 256px;
+    }
+
+    100% {
+        background-color: blue;
+        height: 80%;
+        width: 128px;
+    }
+}
+.transdiv {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle, black, white, gray);
+    visibility: hidden;
+    animation-name: mymovetransdiv;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+    .transdiv:active {
+
+    }
+@keyframes mymovetransdiv{
+    0% {
+        background-image: radial-gradient(circle, black, white, gray);
+    }
+
+    25% {
+        background-image: radial-gradient(circle, black, white, gray);
+    }
+
+    50% {
+        background-image: radial-gradient(circle, black, white, gray);
+    }
+
+    75% {
+        background-image: radial-gradient(circle, black, white, gray);
+    }
+
+    100% {
+        background-image: radial-gradient(circle, black, white, gray);
+    }
 }

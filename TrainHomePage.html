@@ -1,27 +1,52 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
     <title></title>
+    <!--Kütüphane ekle-->
+    <script src="Train.js"></script>
 </head>
 <body>
+
     <div class="contact" id="train">
-        <div class="door1">
-        </div>
-        <div class="door2">
+        <div class="door1" id="door1" onclick="DoorVisible()" >
 
         </div>
 
-        <div class="door3">
+        <div class="door2" id="door2" onclick="DoorVisible()" >
 
         </div>
-        <div class="door4">
 
+        <div class="door3" id="door3" onclick="DoorVisible()">
+
+        </div>
+
+        <div class="door4" id="door4" onclick="DoorVisible()">
+
+        </div>
+
+        <div class="window1" >
+            <iframe src="window1.html" style="height:100%;width:100%;border:none;"></iframe>
+        </div>
+
+        <div class="window2">
+            <iframe src="window2.html" style="height:100%;width:100%;border:none;"></iframe>
+        </div>
+
+        <div class="window3" id="kaydır1" href="#kaydır2">
+            <iframe src="window3.html" style="height:100%;width:100%;border:none;"></iframe>
+        </div>
+
+        <div class="window4">
+            <iframe src="window4.html" style="height:100%;width:100%;border:none;"></iframe>
         </div>
     </div>
+    <div class="transdiv" id="transdiv" style="visibility:hidden;">
 
-    <script src="Train.js"></script>
+    </div>
+    <script src="PScrollPosition.js"></script>
+    <script src="ScrollPosition.js"></script>
+    <script src="Door.js"></script>
 </body>
 </html>
